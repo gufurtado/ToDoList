@@ -1,0 +1,11 @@
+{
+    "type":"sqlite",
+    "database": "./src/database/todobase.sqlite",
+    "synchronize": false,
+    "logging": false,
+    "migrations": ["./src/database/migrations/**.ts"],
+    "entities": ["./src/modules/**/models/**.ts"],
+    "cli": {
+        "migrationsDir":"./src/database/migrations"
+    }
+}
